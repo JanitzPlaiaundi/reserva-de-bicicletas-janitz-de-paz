@@ -15,4 +15,9 @@ class Bike extends Model
         'price_per_hour',
         'status',
     ];
+
+    function bookings()
+    {
+        return $this->hasMany(Booking::class);
+    }
 }
