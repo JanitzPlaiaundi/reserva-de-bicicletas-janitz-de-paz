@@ -1,11 +1,11 @@
 <x-app-layout>
-    <div class="bikes__container">
+    <div class="">
         @forelse ($bikes as $bike)
             <a href="{{ route('bikes.show', $bike->id) }}">
-                <article class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Model: {{ $bike->model }}</h5>
-                        <p class="card-text">Price: {{ $bike->price_per_hour }}</p>
+                <article class="">
+                    <div class="">
+                        <h5 class="">Model: {{ $bike->model }}</h5>
+                        <p class="">Price: {{ $bike->price_per_hour }}</p>
                     </div>
                 </article>
             </a>
