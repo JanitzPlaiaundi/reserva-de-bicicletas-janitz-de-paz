@@ -5,5 +5,6 @@
         <p>Precio por hora: {{ $bike->price_per_hour }}</p>
         <p>Serial: {{ $bike->serial_number }}</p>
         <p>Status: {{ $bike->status }}</p>
+        <a href="{{ route('bookings.create', $bike->id) }}">Reservar</a>
     </div>
 </x-app-layout>

@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->foreignId("user_id")->constrained()->onDelete('cascade');
             $table->foreignId("bike_id")->constrained()->onDelete('cascade');
-            $table->date("start_time");
-            $table->date("end_time");
+            $table->datetime("start_time");
+            $table->datetime("end_time");
             $table->enum("status", ["pending", "active", "completed", "cancelled"])->default("pending");
             $table->decimal("total_cost", 8, 2);
             $table->timestamps();
