@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Página principal o catálogo público de bicicletas
-Route::get('/', [BikeController::class, 'index'])->name('bikes.index');
+Route::get('/', [BikeController::class, 'index'])->name('home');
 
 // Ver los detalles de una bicicleta específica
 Route::get('/bikes/{bike}', [BikeController::class, 'show'])->name('bikes.show');
