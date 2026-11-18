@@ -1,0 +1,38 @@
+.header__layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    background-color: var(--md-sys-color-surface);
+    padding: 20px 30px;
+}
+
+.logo__container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo__container h1{
+    font-family: var(--title-font);
+    font-size: 30px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__button{
+    background-color: transparent;
+    border: none;
+}
