@@ -1,4 +1,8 @@
-<x-app-layout>
+@extends('layouts.app')
+
+@section('title', __('tid_bikes'))
+
+@section('content')
     <div class="">
         @forelse ($bikes as $bike)
             <a href="{{ route('bikes.show', $bike->id) }}">
@@ -13,4 +17,4 @@
             <p>No hay bicis disponibles.</p>
         @endforelse
     </div>
-</x-app-layout>
+@endsection
