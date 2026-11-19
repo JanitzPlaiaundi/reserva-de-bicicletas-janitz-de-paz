@@ -4,7 +4,7 @@
     align-items: center;
     border-bottom: 1px solid #000;
     background-color: var(--md-sys-color-surface);
-    padding: 20px 30px;
+    padding: 20px 10px;
 }
 
 .logo__container{
@@ -15,9 +15,8 @@
 }
 
 .logo__container h1{
-    font-family: var(--title-font);
     color: var(--md-sys-color-on-surface);
-    font-size: 30px;
+    font-size: 1rem;
 }
 
 .header__nav{
@@ -38,4 +37,41 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+.mobile__menu{
+    display: block;
+}
+
+.header__pages{
+    display: none;
+}
+
+.form_logout, svg{
+    height: 24px;
+    width: 24px;
+}
+
+.nav__links{
+    text-decoration: none;
+    color: var(--md-sys-color-on-surface);
+}
+
+/*PC*/
+@media (min-width: 768px) {
+    .header__pages{
+        display: flex;
+        gap: 20px;
+    }
+
+    .mobile__menu{
+        display: none;
+    }
+    .header__layout{
+        padding: 20px 80px;
+    }
+
+    .logo__container h1{
+    font-size: 1.5rem;
+}
 }
