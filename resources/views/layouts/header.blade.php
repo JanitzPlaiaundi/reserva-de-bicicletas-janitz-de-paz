@@ -1,9 +1,10 @@
 <header class="header__layout">
     <div class="logo__container">
-        <a class="icon__link" alt="" href="{{ route('home') }}">
+        <a class="logo__link nav__links" alt="" href="{{ route('home') }}">
             <x-icons.application-logo />
+            <h1>Biker's road</h1>
         </a>
-        <h1>Biker's road</h1>
+        
     </div>
     <nav class="header__nav">
         @auth
@@ -35,12 +36,8 @@
             </div>
 
             <a href="{{ route('login') }}" class="icon__link" title="{{ __('tid_login') }}"><x-icons.user-icon /></a>
-            
             <!--ToDo-->
             <a href="{{ route('register') }}" class="icon__link mobile__menu" title="{{ __('tid_menu') }}"><x-icons.menu-icon /></a>
-
-
-
         @endauth
     </nav>
 </header>

@@ -30,6 +30,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logo__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo__link svg{
+    height: 50px;
+    width: 50px;
+}
+
+svg{
     color: var(--md-sys-color-on-surface);
 }
 
@@ -47,7 +62,7 @@
     display: none;
 }
 
-.form_logout, svg{
+.form_logout, .icon__link svg{
     height: 24px;
     width: 24px;
 }
@@ -68,7 +83,7 @@
         display: none;
     }
     .header__layout{
-        padding: 20px 80px;
+        padding: 20px 90px;
     }
 
     .logo__container h1{
