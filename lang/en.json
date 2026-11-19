@@ -1,5 +1,6 @@
 {
-  "Catalog": "Bike Catalog",
-  "Log Out": "Log Out",
-  "Profile": "Profile"
+  "tid_profile": "Profile",
+  "tid_login": "Log in",
+  "tid_logout": "Log out",
+  "tid_menu": "Menu"
 }
