@@ -15,7 +15,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="">
-        <div class="">
+        <div class="page">
             @include('layouts.header')
             <main>
                 @yield('content')

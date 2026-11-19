@@ -21,3 +21,14 @@ h1, h2, h3{
 p, a{
     font-family: var(--default-font);
 }
+
+.page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    background-color: var(--md-sys-color-background);
+    flex: 1;
+}
