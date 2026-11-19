@@ -1,5 +1,6 @@
 {
-  "Catalog": "Catálogo de Bicicletas",
-  "Log Out": "Cerrar Sesión",
-  "Profile": "Perfil"
+  "tid_profile": "Perfil",
+  "tid_login": "Iniciar sesión",
+  "tid_logout": "Cerrar sesión",
+  "tid_menu": "Menu"
 }
