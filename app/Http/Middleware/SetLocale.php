@@ -16,11 +16,11 @@ class SetLocale
         if ($request->session()->has('locale')) {
             $locale = $request->session()->get('locale');
         } else {
-            $locale = $request->getPreferredLanguage($supportedLocale);
+            $locale = $request->getPreferredLanguage($supportedLocales);
         }
 
         if (in_array($locale, $supportedLocales)) {
-            App:setLocale($locale);
+            App::setLocale($locale);
         }
 
         return $next($request);
