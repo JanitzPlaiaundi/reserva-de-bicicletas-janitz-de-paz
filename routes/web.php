@@ -46,5 +46,12 @@ Route::middleware(['auth'])->group(function () {
     
 });
 
+Route::get('/idioma/{locale}', function (string $locale) {
+    if (in_array($locale, ['es', 'en'])) {
+        session(['locale' => $locale]);
+    }
+    return back();
+})->name('cambiar.idioma');
+
 // Rutas de autenticación por defecto (Laravel Breeze / Jetstream / Fortify)
 require __DIR__.'/auth.php';
