@@ -2,5 +2,8 @@
   "tid_profile": "Profile",
   "tid_login": "Log in",
   "tid_logout": "Log out",
-  "tid_menu": "Menu"
+  "tid_menu": "Menu",
+  "tid_home": "Home",
+  "tid_bikes": "Bikes",
+  "tid_my_bookings": "My bookings"
 }

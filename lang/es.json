@@ -2,5 +2,8 @@
   "tid_profile": "Perfil",
   "tid_login": "Iniciar sesión",
   "tid_logout": "Cerrar sesión",
-  "tid_menu": "Menu"
+  "tid_menu": "Menu",
+  "tid_home": "Inicio",
+  "tid_bikes": "Bicicletas",
+  "tid_my_bookings": "Mis reservas"
 }
