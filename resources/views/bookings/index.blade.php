@@ -1,4 +1,8 @@
-<x-app-layout>
+@extends('layouts.app')
+
+@section('title', __('tid_bikes'))
+
+@section('content')
     <div class="">
         @forelse ($bookings as $booking)
             <article class="">
@@ -13,4 +17,4 @@
             <p>No hay reservas disponibles.</p>
         @endforelse
     </div>
-</x-app-layout>
+@endsection
