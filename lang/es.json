@@ -5,5 +5,9 @@
   "tid_menu": "Menu",
   "tid_home": "Inicio",
   "tid_bikes": "Bicicletas",
-  "tid_my_bookings": "Mis reservas"
+  "tid_my_bookings": "Mis reservas",
+  "tid_landing_title": "Alquila Más Que Una Bici",
+  "tid_landing_description": "Tu mejor ruta. El sendero perfecto. Conectando con el terreno, enlazando una curva con otra y sintiendo la bicicleta como una extensión de tu cuerpo.",
+  "tid_landing_primary_btn": "Descubre El Catalogo",
+  "tid_landing_secondary_btn": "Mis Reservas"
 }

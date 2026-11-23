@@ -2,6 +2,7 @@
 @import "./layout/header.css";
 @import "./theme/css/dark.css";
 @import "./theme/css/light.css";
+@import "./landing-page.css";
 
 :root {
     --logo-font: 'Krona One', sans-serif;
@@ -14,7 +15,6 @@
     padding: 0;
     font-family: var(--default-font);
 }
-
 .page{
     display: flex;
     flex-direction: column;
