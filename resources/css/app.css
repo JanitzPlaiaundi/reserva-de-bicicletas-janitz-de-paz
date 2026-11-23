@@ -4,7 +4,7 @@
 @import "./theme/css/light.css";
 
 :root {
-    --highlight-font: 'Krona One', sans-serif;
+    --logo-font: 'Krona One', sans-serif;
     --default-font: 'Inter', sans-serif;
 }
 
@@ -12,13 +12,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-h1, h2, h3{
-    font-family: var(--highlight-font);
-}
-
-p, a{
     font-family: var(--default-font);
 }
 
