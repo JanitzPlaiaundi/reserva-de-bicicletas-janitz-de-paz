@@ -5,5 +5,9 @@
   "tid_menu": "Menu",
   "tid_home": "Home",
   "tid_bikes": "Bikes",
-  "tid_my_bookings": "My bookings"
+  "tid_my_bookings": "My bookings",
+  "tid_landing_title": "Rent More Than A Bike",
+  "tid_landing_description": "Your best route. The perfect trail. Connecting with the terrain, linking one curve to another and feeling the bike as an extension of your body.",
+  "tid_landing_primary_btn": "Discover The Catalog",
+  "tid_landing_secondary_btn": "Bookings"
 }
