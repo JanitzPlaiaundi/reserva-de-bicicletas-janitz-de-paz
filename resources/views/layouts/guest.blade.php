@@ -13,16 +13,15 @@
 
         <link id="theme-stylesheet"
           rel="stylesheet"
-          href="{{ Vite::asset('resources/css/theme/css/light.css') }}"
-          data-light="{{ Vite::asset('resources/css/theme/css/light.css') }}"
-          data-dark="{{ Vite::asset('resources/css/theme/css/dark.css') }}">
+          href="{{ Vite::asset('resources/css/theme/light.css') }}"
+          data-light="{{ Vite::asset('resources/css/theme/light.css') }}"
+          data-dark="{{ Vite::asset('resources/css/theme/dark.css') }}">
 
         <!-- Scripts -->
         @vite([
             'resources/css/app.css',
             'resources/css/pages/login-page.css',
             'resources/js/app.js',
-            'resources/js/theme-init.js',
             'resources/js/theme.js'
         ])
     </head>
