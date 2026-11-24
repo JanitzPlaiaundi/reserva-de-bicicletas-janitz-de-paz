@@ -8,6 +8,7 @@
 @import "./components/bookings-card.css";
 @import "./pages/bookings-index.css";
 @import "./pages/login-page.css";
+@import "./pages/register-page.css";
 
 :root {
     --logo-font: 'Krona One', sans-serif;

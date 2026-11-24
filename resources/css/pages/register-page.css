@@ -1,0 +1,82 @@
+.register-container {
+    width: 100%;
+    max-width: 440px;
+    margin: auto;
+    padding: 2rem 1rem;
+    color: var(--md-sys-color-on-background);
+}
+
+.register-header h1 {
+    text-align: center;
+    font-size: 1.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.register-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+
+.register-group label,
+.register-link {
+    color: var(--md-sys-color-on-background);
+}
+
+.register-input {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--md-sys-color-outline, #cccccc);
+    border-radius: 6px;
+    background-color: transparent;
+    color: var(--md-sys-color-on-background);
+    font-size: 1rem;
+}
+
+.register-input:focus {
+    outline: none;
+    border-color: var(--md-sys-color-primary);
+}
+
+.register-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.25rem;
+}
+
+.register-link {
+    font-size: 0.85rem;
+    text-decoration: underline;
+}
+
+.register-actions {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.register-button {
+    width: auto;
+    min-width: 190px;
+    padding: 0.85rem 2.5rem;
+    border: none;
+    border-radius: 9999px;
+    background-color: var(--md-sys-color-on-background);
+    color: var(--md-sys-color-background);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.2s ease, transform 0.1s ease;
+}
+
+.register-button:hover {
+    opacity: 0.85;
+}
