@@ -1,0 +1,16 @@
+.bikes__container__wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.bikes__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    flex: 1;
+}
+
+.bikes__filters{
+    width: 20vw;
+}

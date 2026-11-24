@@ -3,18 +3,14 @@
 @section('title', __('tid_bikes'))
 
 @section('content')
-    <div class="">
-        @forelse ($bikes as $bike)
-            <a href="{{ route('bikes.show', $bike->id) }}">
-                <article class="">
-                    <div class="">
-                        <h5 class="">Model: {{ $bike->model }}</h5>
-                        <p class="">Price: {{ $bike->price_per_hour }}</p>
-                    </div>
-                </article>
-            </a>
-        @empty
-            <p>No hay bicis disponibles.</p>
-        @endforelse
+    <div class="bikes__container__wrapper">
+        <section class="bikes__filters">a</section>
+        <section class="bikes__container">
+            @forelse ($bikes as $bike)
+                <x-bike-card :bike="$bike" />
+            @empty
+                <p>No hay bicis disponibles.</p>
+            @endforelse
+        </section>
     </div>
 @endsection

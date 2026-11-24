@@ -2,7 +2,9 @@
 @import "./layout/header.css";
 @import "./theme/dark.css";
 @import "./theme/light.css";
-@import "./landing-page.css";
+@import "./pages/landing-page.css";
+@import "./pages/bikes-index.css";
+@import "./components/bikes-card.css";
 
 :root {
     --logo-font: 'Krona One', sans-serif;

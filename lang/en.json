@@ -9,5 +9,7 @@
   "tid_landing_title": "Rent More Than A Bike",
   "tid_landing_description": "Your best route. The perfect trail. Connecting with the terrain, linking one curve to another and feeling the bike as an extension of your body.",
   "tid_landing_primary_btn": "Discover The Catalog",
-  "tid_landing_secondary_btn": "Bookings"
+  "tid_landing_secondary_btn": "Bookings",
+  "pid_per_hour": "per hour",
+  "pid_size": "Size"
 }
