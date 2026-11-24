@@ -1,4 +1,8 @@
-<x-app-layout>
+@extends('layouts.app')
+
+@section('title', __('tid_bikes'))
+
+@section('content')
     <div class="">
         <h1>Detalles de la bicicleta</h1>
         <p>Modelo: {{ $bike->model }}</p>
@@ -7,4 +11,4 @@
         <p>Status: {{ $bike->status }}</p>
         <a href="{{ route('bookings.create', $bike->id) }}">Reservar</a>
     </div>
-</x-app-layout>
+@endsection
