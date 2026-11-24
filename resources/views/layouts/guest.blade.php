@@ -20,22 +20,19 @@
         <!-- Scripts -->
         @vite([
             'resources/css/app.css',
+            'resources/css/pages/login-page.css',
             'resources/js/app.js',
             'resources/js/theme-init.js',
             'resources/js/theme.js'
         ])
     </head>
-    <body class="">
-        <div class="">
-            <div>
-                <a href="/">
-                    <x-icons.application-logo />
-                </a>
-            </div>
+    <body>
+        <div class="page">
+            @include('layouts.header')
 
-            <div class="">
+            <main>
                 {{ $slot }}
-            </div>
+            </main>
         </div>
     </body>
 </html>
