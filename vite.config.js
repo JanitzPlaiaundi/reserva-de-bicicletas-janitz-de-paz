@@ -7,10 +7,9 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/css/login-page.css',
-                'resources/css/theme/css/light.css',
-                'resources/css/theme/css/dark.css',
+                'resources/css/theme/light.css',
+                'resources/css/theme/dark.css',
                 'resources/js/app.js',
-                'resources/js/theme-init.js',
                 'resources/js/theme.js',
             ],
             refresh: true,
