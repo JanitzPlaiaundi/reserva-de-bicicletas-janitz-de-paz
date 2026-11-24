@@ -11,5 +11,15 @@
   "tid_landing_primary_btn": "Discover The Catalog",
   "tid_landing_secondary_btn": "Bookings",
   "pid_per_hour": "per hour",
-  "pid_size": "Size"
+  "pid_size": "Size",
+  "pid_booked_bike": "Booked Bike",
+  "pid_booking_start_time": "Starting time",
+  "pid_booking_end_time": "Ending time",
+  "pid_view_details": "More details",
+  "pid_booking_status": "Status",
+  "pid_booking_status_pending": "Pending",
+  "pid_booking_status_actived": "Active",
+  "pid_booking_status_cancelled": "Cancelled",
+  "pid_booking_status_completed": "Completed",
+  "pid_booking_date": "Date"
 }

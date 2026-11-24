@@ -7,7 +7,7 @@
         <section class="bikes__filters">a</section>
         <section class="bikes__container">
             @forelse ($bikes as $bike)
-                <x-bike-card :bike="$bike" />
+                <x-cards.bike-card :bike="$bike" />
             @empty
                 <p>No hay bicis disponibles.</p>
             @endforelse

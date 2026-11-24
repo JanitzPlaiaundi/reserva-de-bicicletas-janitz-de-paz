@@ -5,7 +5,8 @@
 @import "./pages/landing-page.css";
 @import "./pages/bikes-index.css";
 @import "./components/bikes-card.css";
-
+@import "./components/bookings-card.css";
+@import "./pages/bookings-index.css";
 :root {
     --logo-font: 'Krona One', sans-serif;
     --default-font: 'Inter', sans-serif;
