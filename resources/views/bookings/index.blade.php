@@ -1,20 +1,14 @@
 @extends('layouts.app')
 
-@section('title', __('tid_bikes'))
+@section('title', __('tid_my_bookings'))
 
 @section('content')
-    <div class="">
+    <h1 class="bookings__title">{{ __('tid_my_bookings') }}</h1>
+    <section class="bookings__container">
         @forelse ($bookings as $booking)
-            <article class="">
-                <div class="">
-                    <h5 class="">Bicicleta: {{ $booking->bike->model }}</h5>
-                    <p class="">Fecha de inicio: {{ $booking->start_time }}</p>
-                    <p class="">Fecha de fin: {{ $booking->end_time }}</p>
-                    <p class="">Precio total: {{ $booking->total_cost }}</p>
-                </div>
-            </article>
+            <x-cards.bookings-card :booking="$booking" :number="$loop->iteration" />
         @empty
             <p>No hay reservas disponibles.</p>
         @endforelse
-    </div>
+    </section>
 @endsection

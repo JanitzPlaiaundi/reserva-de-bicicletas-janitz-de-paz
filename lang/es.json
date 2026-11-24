@@ -11,5 +11,15 @@
   "tid_landing_primary_btn": "Descubre El Catalogo",
   "tid_landing_secondary_btn": "Mis Reservas",
   "pid_per_hour": "por hora",
-  "pid_size": "Talla"
+  "pid_size": "Talla",
+  "pid_booked_bike": "Bicicleta Reservada",
+  "pid_booking_start_time": "Hora de inicio",
+  "pid_booking_end_time": "Hora de finalización",
+  "pid_view_details": "Ver detalles",
+  "pid_booking_status": "Estado",
+  "pid_booking_status_pending": "Pendiente",
+  "pid_booking_status_actived": "Activo",
+  "pid_booking_status_cancelled": "Cancelado",
+  "pid_booking_status_completed": "Completado",
+  "pid_booking_date": "Fecha"
 }
