@@ -9,5 +9,7 @@
   "tid_landing_title": "Alquila Más Que Una Bici",
   "tid_landing_description": "Tu mejor ruta. El sendero perfecto. Conectando con el terreno, enlazando una curva con otra y sintiendo la bicicleta como una extensión de tu cuerpo.",
   "tid_landing_primary_btn": "Descubre El Catalogo",
-  "tid_landing_secondary_btn": "Mis Reservas"
+  "tid_landing_secondary_btn": "Mis Reservas",
+  "pid_per_hour": "por hora",
+  "pid_size": "Talla"
 }
