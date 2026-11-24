@@ -7,10 +7,6 @@
         
     </div>
     <nav class="header__nav">
-        <button id="theme-toggle" type="button" class="icon__button" title="Toggle theme" aria-label="Toggle theme">
-            <x-icons.moon-icon />
-            <x-icons.sun-icon />
-        </button>
         @auth
 
             <div class="header__pages">
@@ -19,6 +15,11 @@
                 <a href="{{ route('bookings.index') }}" class="nav__links">{{ __('tid_my_bookings')}}</a>
             </div>
             
+            <button id="theme-toggle" type="button" class="icon__button" title="Toggle theme" aria-label="Toggle theme">
+                <x-icons.moon-icon />
+                <x-icons.sun-icon />
+            </button>
+
             <a href="{{ route('profile.edit') }}" class="icon__link" title="{{ __('tid_profile') }}">
                 <x-icons.user-icon />
             </a>
@@ -39,6 +40,10 @@
                 <a href="{{ route('bookings.index') }}" class="nav__links">{{ __('tid_my_bookings')}}</a>
             </div>
 
+            <button id="theme-toggle" type="button" class="icon__button" title="Toggle theme" aria-label="Toggle theme">
+                <x-icons.moon-icon />
+                <x-icons.sun-icon />
+            </button>
             <a href="{{ route('login') }}" class="icon__link" title="{{ __('tid_login') }}"><x-icons.user-icon /></a>
             <!--ToDo-->
             <a href="{{ route('register') }}" class="icon__link mobile__menu" title="{{ __('tid_menu') }}"><x-icons.menu-icon /></a>
